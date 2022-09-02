@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TURKISH YOGURT</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: blueviolet;
+      }
+
+      h2 {
+        text-align: center;
+        border: 1px solid blueviolet;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 4px;
+      }
+
+      img {
+        display: block;
+        margin: 0;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 13px;
+        margin: 20px 0 10px;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: blueviolet;
+        color: white;
+        font-size: 17px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 60px;
+      }
+
+      .learn-more {
+        font-size: 13px;
+        color: blueviolet;
+        text-decoration: none;
+      }
+
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    nn
+      <h1>I love Yogurt</h1>
+
+      <h2>Especially Turkish Yogurt</h2>
+
+      <img
+        src="https://goturkishfood.com/wp-content/uploads/2021/02/Yayla-natural-yogurt-600x600.jpg"
+        ,
+        alt="Turkish Yogurt"
+      />
+
+      <p>
+        Turkish yogurt is yogurt that comes from Turkey or yogurt that is made
+        in the Turkish style. This type of yogurt is one of the most commonly
+        eaten throughout the world and is similar in style to Balkan, or
+        set-style, yogurt. The word yogurt appears in many different languages
+        around the world and was borrowed from the Turkish language where it
+        first appeared over one thousand years ago. Though Turkey is one of many
+        countries that has a long history of making yogurt, it is believed that
+        this food first originated there as well.
+        <br />
+      </p>
+      <a
+        href="https://www.delightedcooking.com/what-is-turkish-yogurt.htm"
+        ,
+        target="_blank"
+        ,
+        class="learn-more"
+      >
+        Learn more on this website
+      </a>
+      <button class="buy-button">Buy Turkish Yogurt</button>
+      <p class="footer">This page was built by Ipek Aktan</p>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email adress?");
+
+        alert(
+          "Thank you " +
+            name +
+            "! We will be in touch by email, meanwhile have lot of Yoğurt! "
+        );
+      }
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
